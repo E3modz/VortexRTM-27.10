@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ED3BA993-B68A-4BEC-BE04-67835DEFA96B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>E3Modz</RootNamespace>
+    <AssemblyName>Project Vortex RTM</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PMT Test.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>FA3C20AFAD76245DE0095469F447B9DCC4A6235A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ProjectVortex_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>E3Modz.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Bunifu_UI_v1.52.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API\PS3Lib\API\CCAPI\CCAPI.cs" />
+    <Compile Include="API\PS3Lib\API\CCAPI\ConsoleList.cs" />
+    <Compile Include="API\PS3Lib\API\CCAPI\test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\PS3Lib\API\CCAPI\test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\PS3Lib\API\PS3API.cs" />
+    <Compile Include="API\PS3Lib\API\PS3MAPI\PS3M_API.cs" />
+    <Compile Include="API\PS3Lib\API\TMAPI\TMAPI.cs" />
+    <Compile Include="API\PS3Lib\API\TMAPI\TMAPI_NET.cs" />
+    <Compile Include="API\PS3Lib\Extra\ArrayBuilder.cs" />
+    <Compile Include="API\PS3Lib\Extra\Extensions.cs" />
+    <Compile Include="API\PS3Manager\AttachDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\PS3Manager\AttachDialog.Designer.cs">
+      <DependentUpon>AttachDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\PS3Manager\ConnectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\PS3Manager\ConnectDialog.Designer.cs">
+      <DependentUpon>ConnectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\PS3Manager\LogDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="API\PS3Manager\LogDialog.Designer.cs">
+      <DependentUpon>LogDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\PS3Manager\PS3MAPI.cs" />
+    <Compile Include="Black Ops 2\ShutdownBO2ServerExploit.cs" />
+    <Compile Include="Black Ops 2\AimbotFuncs.cs" />
+    <Compile Include="Black Ops 2\AimbotOffsets.cs" />
+    <Compile Include="Black Ops 2\AntiFreeze.cs" />
+    <Compile Include="Black Ops 2\BinaryReader2.cs" />
+    <Compile Include="Black Ops 2\Binarys.cs" />
+    <Compile Include="Black Ops 2\BO2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Black Ops 2\BO2.Designer.cs">
+      <DependentUpon>BO2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Black Ops 2\BO2AdvancedStats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Black Ops 2\BO2AdvancedStats.Designer.cs">
+      <DependentUpon>BO2AdvancedStats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Black Ops 2\BO2RPC.cs" />
+    <Compile Include="Black Ops 3\Class1.cs" />
+    <Compile Include="Login + Home\Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login + Home\Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login + Home\Realy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login + Home\Realy.Designer.cs">
+      <DependentUpon>Realy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minecraft\Minecraft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minecraft\Minecraft.Designer.cs">
+      <DependentUpon>Minecraft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsoleManager\AddNewConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsoleManager\AddNewConsole.Designer.cs">
+      <DependentUpon>AddNewConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsoleManager\HenCidChanger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsoleManager\HenCidChanger.Designer.cs">
+      <DependentUpon>HenCidChanger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ghost\Aimbot.cs" />
+    <Compile Include="Ghost\RPCGhost.cs" />
+    <Compile Include="GTA5\class.cs" />
+    <Compile Include="GTA5\Class1.cs" />
+    <Compile Include="GTA5\ClassicRPC.cs" />
+    <Compile Include="GTA5\EBOOTDL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GTA5\EBOOTDL.Designer.cs">
+      <DependentUpon>EBOOTDL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GTA5\Functions.cs" />
+    <Compile Include="GTA5\GTA5Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GTA5\GTA5Main.Designer.cs">
+      <DependentUpon>GTA5Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GTA5\Natives.cs" />
+    <Compile Include="GTA5\NewNatives.cs" />
+    <Compile Include="GTA5\OldNatives.cs" />
+    <Compile Include="GTA5\Protection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GTA5\Protection.Designer.cs">
+      <DependentUpon>Protection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GTA5\RPC3.cs" />
+    <Compile Include="GTA5\RPCHoock.cs" />
+    <Compile Include="Login + Home\ChangeLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login + Home\ChangeLog.Designer.cs">
+      <DependentUpon>ChangeLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ghost\GhostMP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ghost\GhostMP.Designer.cs">
+      <DependentUpon>GhostMP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login + Home\Debugger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login + Home\Debugger.Designer.cs">
+      <DependentUpon>Debugger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login + Home\Decoder.cs" />
+    <Compile Include="Login + Home\EmbeddedAssembly.cs" />
+    <Compile Include="Login + Home\Protection.cs" />
+    <Compile Include="Login + Home\Updater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login + Home\Updater.Designer.cs">
+      <DependentUpon>Updater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login + Home\XMBChanger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login + Home\XMBChanger.Designer.cs">
+      <DependentUpon>XMBChanger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MW2\MW2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MW2\MW2.Designer.cs">
+      <DependentUpon>MW2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Black Ops 3\BO3Zombies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Black Ops 3\BO3Zombies.Designer.cs">
+      <DependentUpon>BO3Zombies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Black Ops 2\DEX.cs" />
+    <Compile Include="Black Ops 2\EBootBuilderBo2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Black Ops 2\EBootBuilderBo2.Designer.cs">
+      <DependentUpon>EBootBuilderBo2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Black Ops 2\Encoder2.cs" />
+    <Compile Include="Black Ops 2\FileLS.cs" />
+    <Compile Include="Black Ops 2\Func.cs" />
+    <Compile Include="Black Ops 2\Functions.cs" />
+    <Compile Include="Black Ops 2\InGame.cs" />
+    <Compile Include="Black Ops 2\levelucus.cs" />
+    <Compile Include="Black Ops 2\Lib.cs" />
+    <Compile Include="Black Ops 2\Mods.cs" />
+    <Compile Include="Black Ops 2\Offsets.cs" />
+    <Compile Include="Black Ops 2\PS6.cs" />
+    <Compile Include="Black Ops 2\Selector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Black Ops 2\Selector.Designer.cs">
+      <DependentUpon>Selector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Black Ops 2\Server.cs" />
+    <Compile Include="Black Ops 2\Stats.cs" />
+    <Compile Include="Black Ops 2\Unlock.cs" />
+    <Compile Include="Black Ops 2\Variable.cs" />
+    <Compile Include="Black Ops 2\ZombieRPC.cs" />
+    <Compile Include="Black Ops 2\Zombies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Black Ops 2\Zombies.Designer.cs">
+      <DependentUpon>Zombies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Black Ops 3\BO3 Selector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Black Ops 3\BO3 Selector.Designer.cs">
+      <DependentUpon>BO3 Selector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Black Ops 3\Bo3EbootBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Black Ops 3\Bo3EbootBuilder.Designer.cs">
+      <DependentUpon>Bo3EbootBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Black Ops 3\BO3EbootBuilderFunctions.cs" />
+    <Compile Include="Black Ops 3\Class10.cs" />
+    <Compile Include="Black Ops 3\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Black Ops 3\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Black Ops 3\RPC.cs" />
+    <Compile Include="Black Ops 3\RPCZombie.cs" />
+    <Compile Include="BO1\BO1E3bootBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BO1\BO1E3bootBuilder.Designer.cs">
+      <DependentUpon>BO1E3bootBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BO1\BO1Offsets.cs" />
+    <Compile Include="BO1\BO1Selector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BO1\BO1Selector.Designer.cs">
+      <DependentUpon>BO1Selector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BO1\BO1Server.cs" />
+    <Compile Include="BO1\Bo1Zombies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BO1\Bo1Zombies.Designer.cs">
+      <DependentUpon>Bo1Zombies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BO1\BOIRPC.cs" />
+    <Compile Include="BO1\BO1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BO1\BO1.Designer.cs">
+      <DependentUpon>BO1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login + Home\Accounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login + Home\Accounts.Designer.cs">
+      <DependentUpon>Accounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login + Home\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login + Home\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login + Home\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login + Home\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mecommand Uploader\MecommentUploader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mecommand Uploader\MecommentUploader.Designer.cs">
+      <DependentUpon>MecommentUploader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login + Home\Point.cs" />
+    <Compile Include="Login + Home\Program.cs" />
+    <Compile Include="Login + Home\Snake.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login + Home\Snake.Designer.cs">
+      <DependentUpon>Snake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login + Home\SnakePlayer.cs" />
+    <Compile Include="Login + Home\SpamBotcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login + Home\SpamBotcs.Designer.cs">
+      <DependentUpon>SpamBotcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MW2\MW2RPC.cs" />
+    <Compile Include="MW3\FuncsMW3.cs" />
+    <Compile Include="MW3\MW3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MW3\MW3.Designer.cs">
+      <DependentUpon>MW3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MW3\MW3100AntiFreeze.cs" />
+    <Compile Include="MW3\MW3Protection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MW3\MW3Protection.Designer.cs">
+      <DependentUpon>MW3Protection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MW3\MW3RCE.cs" />
+    <Compile Include="MW3\MW3RPC.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PS3Exploit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PS3Exploit.Designer.cs">
+      <DependentUpon>PS3Exploit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\PS5.cs" />
+    <Compile Include="Snake\BodyPart.cs" />
+    <Compile Include="Snake\FoodManager.cs" />
+    <Compile Include="Snake\FoodPellet.cs" />
+    <Compile Include="Snake\GameOverUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Snake\GameOverUC.Designer.cs">
+      <DependentUpon>GameOverUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Snake\GamePart.cs" />
+    <Compile Include="Snake\GameUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Snake\GameUC.Designer.cs">
+      <DependentUpon>GameUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Snake\HomeUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Snake\HomeUC.Designer.cs">
+      <DependentUpon>HomeUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Snake\Input.cs" />
+    <Compile Include="Snake\Point.cs" />
+    <Compile Include="Snake\SnakeMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Snake\SnakeMain.Designer.cs">
+      <DependentUpon>SnakeMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Snake\SnakePlayer.cs" />
+    <Compile Include="Snake\TutorialUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Snake\TutorialUC.Designer.cs">
+      <DependentUpon>TutorialUC.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="API\PS3Lib\API\CCAPI\test.resx">
+      <DependentUpon>test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\PS3Manager\AttachDialog.resx">
+      <DependentUpon>AttachDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\PS3Manager\ConnectDialog.resx">
+      <DependentUpon>ConnectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\PS3Manager\LogDialog.resx">
+      <DependentUpon>LogDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Black Ops 2\BO2.resx">
+      <DependentUpon>BO2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Black Ops 2\BO2AdvancedStats.resx">
+      <DependentUpon>BO2AdvancedStats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login + Home\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login + Home\Realy.resx">
+      <DependentUpon>Realy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minecraft\Minecraft.resx">
+      <DependentUpon>Minecraft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoleManager\AddNewConsole.resx">
+      <DependentUpon>AddNewConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoleManager\HenCidChanger.resx">
+      <DependentUpon>HenCidChanger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ghost\GhostMP.resx">
+      <DependentUpon>GhostMP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GTA5\EBOOTDL.resx">
+      <DependentUpon>EBOOTDL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GTA5\GTA5Main.resx">
+      <DependentUpon>GTA5Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GTA5\Protection.resx">
+      <DependentUpon>Protection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login + Home\ChangeLog.resx">
+      <DependentUpon>ChangeLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login + Home\Debugger.resx">
+      <DependentUpon>Debugger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login + Home\Updater.resx">
+      <DependentUpon>Updater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login + Home\XMBChanger.resx">
+      <DependentUpon>XMBChanger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MW2\MW2.resx">
+      <DependentUpon>MW2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Black Ops 3\BO3Zombies.resx">
+      <DependentUpon>BO3Zombies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Black Ops 2\EBootBuilderBo2.resx">
+      <DependentUpon>EBootBuilderBo2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Black Ops 2\Selector.resx">
+      <DependentUpon>Selector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Black Ops 2\Zombies.resx">
+      <DependentUpon>Zombies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Black Ops 3\BO3 Selector.resx">
+      <DependentUpon>BO3 Selector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Black Ops 3\Bo3EbootBuilder.resx">
+      <DependentUpon>Bo3EbootBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Black Ops 3\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BO1\BO1.resx">
+      <DependentUpon>BO1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BO1\BO1E3bootBuilder.resx">
+      <DependentUpon>BO1E3bootBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BO1\BO1Selector.resx">
+      <DependentUpon>BO1Selector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login + Home\Accounts.resx">
+      <DependentUpon>Accounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login + Home\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login + Home\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mecommand Uploader\MecommentUploader.resx">
+      <DependentUpon>MecommentUploader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login + Home\Snake.resx">
+      <DependentUpon>Snake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login + Home\SpamBotcs.resx">
+      <DependentUpon>SpamBotcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MW3\MW3.resx">
+      <DependentUpon>MW3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MW3\MW3Protection.resx">
+      <DependentUpon>MW3Protection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PS3Exploit.resx">
+      <DependentUpon>PS3Exploit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Snake\GameOverUC.resx">
+      <DependentUpon>GameOverUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Snake\GameUC.resx">
+      <DependentUpon>GameUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Snake\HomeUC.resx">
+      <DependentUpon>HomeUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Snake\SnakeMain.resx">
+      <DependentUpon>SnakeMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Snake\TutorialUC.resx">
+      <DependentUpon>TutorialUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="GTA5\GTA5.Designer.Proectioncs" />
+    <None Include="GTA5\GTA5.Proectioncs">
+      <SubType>Form</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="ProjectVortex_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Snake\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spinner-512.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d9gfn65-39ecb111-e20e-4d48-8b00-825d40f19698.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black_ops_2_png_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58b008bc829958a978a4a6d5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Call-of-Duty-Modern-Warfare-2-2-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoD-Modern-Warfare-3-1-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mdYhRsJxWgU6cG5bX7cx5asgG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PixelSnake.PNG" />
+    <None Include="Resources\PixelControls.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PixelSnakeTitle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avd5c445f01ca4712be88.png" />
+    <None Include="Resources\Test1.png" />
+    <None Include="Resources\Stop-Sign-PNG-Pic %281%29.png" />
+    <None Include="Resources\PMT Test.ico" />
+    <None Include="Resources\ALlInOne.png" />
+    <EmbeddedResource Include="Bunifu_UI_v1.52.dll" />
+    <Content Include="Civilization_V-01-256.ico" />
+    <Content Include="PMT Test.ico" />
+    <None Include="Resources\Info1.png" />
+    <None Include="Resources\Info.png" />
+    <None Include="Resources\tourist-information-symbol-iso-circle-sign-ico-silverlight-ico-11562994484m5bu6y9sbg.png" />
+    <None Include="Resources\993806_bo2-logo-png.png" />
+    <None Include="Resources\Blue Sporadic.png" />
+    <None Include="Resources\PMT Assumi Green.jpg" />
+    <None Include="Resources\PMT E3Modz.jpg" />
+    <None Include="Resources\lg.rotating-balls-spinner.gif" />
+    <None Include="Resources\Wifi Red.png" />
+    <None Include="Resources\LogoFür Tools.png" />
+    <None Include="Resources\588524d86f293bbfae451a31.png" />
+    <None Include="Resources\365-3652401_laptop-png-images-laptop-clip-art-transparent-png.png" />
+    <None Include="Resources\1178502_preview_preview.png" />
+    <None Include="Resources\PS3-slim-hor-icon.png" />
+    <None Include="Resources\HenManager.png" />
+    <None Include="Resources\1558250341_ps3hen-2.png" />
+    <None Include="Resources\gta_v_icon_v4_by_andonovmarko-d8jgbob.png" />
+    <None Include="Resources\Skirlex Fixed.dds" />
+    <None Include="Resources\2195.png" />
+    <None Include="Resources\ps3.png" />
+    <None Include="Resources\call-of-duty-black-ops-3-zombies-logo-png-1.png" />
+    <None Include="Resources\223-2238440_logo-bo3-png.png" />
+    <None Include="Resources\137873_call-of-duty-black-ops-3-logo-png.png" />
+    <None Include="Resources\eecc8e5b99aaf474179f56c405a1cfd8f4d8bf251.png" />
+    <None Include="Resources\FHEivVm.png" />
+    <None Include="Resources\EayKrDr.png" />
+    <None Include="Resources\Zombie_title_screen_BOII.png" />
+    <None Include="Resources\eecc8e5b99aaf474179f56c405a1cfd8f4d8bf25.png" />
+    <None Include="Resources\loading-gears-animation-13-3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 und x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Snake\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

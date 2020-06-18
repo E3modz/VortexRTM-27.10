@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="E3Modz.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+    <userSettings>
+        <E3Modz.Properties.Settings>
+            <setting name="username" serializeAs="String">
+                <value>username</value>
+            </setting>
+            <setting name="password" serializeAs="String">
+                <value>password</value>
+            </setting>
+            <setting name="DefaultIP" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="compress" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="IPHen" serializeAs="String">
+                <value>IP here</value>
+            </setting>
+            <setting name="ConsolenName" serializeAs="String">
+                <value>Name</value>
+            </setting>
+            <setting name="CheckBoxLogin" serializeAs="String">
+                <value>False</value>
+            </setting>
+        </E3Modz.Properties.Settings>
+    </userSettings>
+</configuration>

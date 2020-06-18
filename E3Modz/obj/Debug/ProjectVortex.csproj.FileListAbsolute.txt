@@ -1,0 +1,107 @@
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\ProjectVortex.csprojAssemblyReference.cache
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\PS3ManagerAPI.AttachDialog.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\PS3ManagerAPI.ConnectDialog.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\PS3ManagerAPI.LogDialog.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Black_Ops_2.BO2.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Black_Ops_2.BO2AdvancedStats.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Black_Ops_3.HenCidChanger.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.GTA5.EBOOTDL.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.GTA5.GTA5Main.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.GTA5.Protection.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login___Home.ChangeLog.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Black_Ops_2.MW2.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Black_Ops_2.BO3Zombies.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Black_Ops_2.EBootBuilderBo2.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Black_Ops_2.Selector.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Black_Ops_2.Zombies.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login___Home.BO3_Selector.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login___Home.Bo3EbootBuilder.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Main.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login___Home.BO1.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.BO1.BO1E3bootBuilder.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.BO1.BO1Selector.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login___Home.Accounts.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login___Home.Home.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login2.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login___Home.MecommentUploader.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login.Snake.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login___Home.SpamBotcs.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.MW3.MW3.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.MW3.MW3Protection.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Properties.Resources.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.PS3Exploit.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\Snake.GameOverUC.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\Snake.Snake.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\Snake.HomeUC.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\Snake.mainForm.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\Snake.TutorialUC.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\ProjectVortex.csproj.GenerateResource.cache
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login___Home.Updater.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\bin\Debug\Project Vortex RTM.exe.config
+C:\Users\Mario\Desktop\E3Modz\E3Modz\bin\Debug\Project Vortex RTM.exe
+C:\Users\Mario\Desktop\E3Modz\E3Modz\bin\Debug\Project Vortex RTM.pdb
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login___Home.XMBChanger.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\Project Vortex RTM.exe
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\Project Vortex RTM.pdb
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login___Home.GhostMP.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.ConsoleManager.AddNewConsole.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Black_Ops_3.Form1.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.API.PS3Lib.API.CCAPI.test.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login___Home.Debugger.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Black_Ops_3.Minecraft.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login___Home.Dashboard.resources
+C:\Users\Mario\Desktop\E3Modz\E3Modz\obj\Debug\E3Modz.Login___Home.Realy.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\bin\Debug\Project Vortex RTM.exe.config
+D:\Visual Studio\VortexRTM 27.10\E3Modz\bin\Debug\Project Vortex RTM.exe
+D:\Visual Studio\VortexRTM 27.10\E3Modz\bin\Debug\Project Vortex RTM.pdb
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\ProjectVortex.csprojAssemblyReference.cache
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.API.PS3Lib.API.CCAPI.test.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\PS3ManagerAPI.AttachDialog.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\PS3ManagerAPI.ConnectDialog.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\PS3ManagerAPI.LogDialog.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Black_Ops_2.BO2.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Black_Ops_2.BO2AdvancedStats.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Black_Ops_3.Form1.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login___Home.Dashboard.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login___Home.Realy.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Black_Ops_3.Minecraft.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.ConsoleManager.AddNewConsole.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Black_Ops_3.HenCidChanger.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login___Home.GhostMP.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.GTA5.EBOOTDL.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.GTA5.GTA5Main.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.GTA5.Protection.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login___Home.ChangeLog.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login___Home.Debugger.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login___Home.Updater.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login___Home.XMBChanger.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Black_Ops_2.MW2.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Black_Ops_2.BO3Zombies.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Black_Ops_2.EBootBuilderBo2.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Black_Ops_2.Selector.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Black_Ops_2.Zombies.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login___Home.BO3_Selector.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login___Home.Bo3EbootBuilder.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Main.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login___Home.BO1.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.BO1.BO1E3bootBuilder.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.BO1.BO1Selector.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login___Home.Accounts.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login___Home.Home.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login2.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login___Home.MecommentUploader.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login.Snake.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Login___Home.SpamBotcs.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.MW3.MW3.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.MW3.MW3Protection.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.Properties.Resources.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\E3Modz.PS3Exploit.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\Snake.GameOverUC.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\Snake.Snake.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\Snake.HomeUC.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\Snake.mainForm.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\Snake.TutorialUC.resources
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\ProjectVortex.csproj.GenerateResource.cache
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\ProjectVortex.csproj.CoreCompileInputs.cache
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\Project Vortex RTM.exe
+D:\Visual Studio\VortexRTM 27.10\E3Modz\obj\Debug\Project Vortex RTM.pdb
